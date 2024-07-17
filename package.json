@@ -1,20 +1,19 @@
 {
-	"name": "server",
+	"name": "md4now-api",
 	"version": "1.0.0",
-	"main": "app.js",
+	"private": true,
+	"main": "src/app.js",
 	"scripts": {
-		"watch": "nodemon .",
-		"start": "node ."
+		"start": "node .",
+		"watch": "nodemon ."
 	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"description": "",
 	"dependencies": {
 		"cors": "^2.8.5",
 		"dotenv": "^16.4.5",
 		"express": "^4.19.2",
-		"twilio": "^5.2.1"
+		"socket.io": "^4.7.5",
+		"sqlite3": "^5.1.7",
+		"twilio": "^5.2.2"
 	},
 	"devDependencies": {
 		"nodemon": "^3.1.4"
